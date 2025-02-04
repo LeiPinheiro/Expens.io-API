@@ -10,7 +10,7 @@ const app = express()
 const port = 3000
 app.use(express.json())
 app.use(cors({
-    origin: 'https://expensio-f0qwzt6rr-lei-pinheiros-projects.vercel.app/'
+    origin: 'https://expens-f1wr3rddk-lei-pinheiros-projects.vercel.app'
 }))
 
 // Middleware de autenticação
